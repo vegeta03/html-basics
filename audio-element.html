@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Types</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Capability Center</h1>
+        <h1>HTML Basics</h1>
+      </div>
+    </header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">Home</a>
+        </li>
+        <li>
+          <a href="contact.html">Home</a>
+        </li>
+        <li>
+          <a href="index.html">Back to Table of Contents</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <header>Video Element</header>
+
+      <p>Video Element</p>
+      <video src="assets/King-Bob-Scene.mp4"></video>
+
+      <p>Video Element controls attribute</p>
+      <video src="assets/King-Bob-Scene.mp4" controls></video>
+
+      <p>Video Element controls and autoplay attributes</p>
+      <video src="assets/King-Bob-Scene.mp4" controls autoplay></video>
+
+      <p>Video Element controls, autoplay and loop attributes</p>
+      <video src="assets/King-Bob-Scene.mp4" controls autoplay loop></video>
+
+      <p>Video Element controls, autoplay and poster attributes</p>
+      <video
+        src="assets/King-Bob-Scene.mp4"
+        controls
+        loop
+        poster="assets/King-Bob-Scene.jpg"
+      ></video>
+
+      <p>
+        Video Element controls, autoplay, poster attributes and different
+        sources for compatibility
+      </p>
+      <video controls loop poster="assets/King-Bob-Scene.jpg">
+        <source src="assets/King-Bob-Scene.mp4" type="video/mpeg" />
+        <source src="assets/King-Bob-Scene.webm" type="video/webm" />
+      </video>
+
+      <p>Audio Element</p>
+      <p>Audio Element with controls attribute</p>
+      <audio src="assets/Tenet-The-Plan.wav" controls></audio>
+
+      <p>Audio Element with controls and loop attribute</p>
+      <audio src="assets/Tenet-The-Plan.wav" controls loop></audio>
+
+      <p>Audio Element with controls and loop attribute</p>
+      <audio controls loop>
+        <source src="assets/Tenet-The-Plan.wav" type="audio/wav" />
+        <source src="assets/Tenet-The-Plan.mp3" type="audio/mpeg" />
+      </audio>
+
+      <footer>
+        <p>Made by Shyam Sreenivasan</p>
+      </footer>
+    </main>
+
+    <footer>
+      <p>Made for Capability Center Training</p>
+    </footer>
+  </body>
+</html>
