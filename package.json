@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "servor --reload"
+    "start": "live-server"
   },
-  "dependencies": {
-    "servor": "^4.0.2"
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
